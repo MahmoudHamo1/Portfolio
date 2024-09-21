@@ -1,0 +1,307 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "SUSE", system-ui;
+  font-optical-sizing: auto;
+}
+.header {
+  padding: 20px;
+  background-color: #008073;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  box-shadow: 0 0 10px 0 rgb(46, 45, 45);
+}
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 67%;
+  top: 5px;
+}
+.header ul li {
+  display: inline;
+}
+.header ul li a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.header ul li :hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #12e985;
+}
+.section {
+  padding: 50px 20px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.first {
+  text-align: center;
+  background-image: url("./image/008073.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 150px 20px;
+  min-height: 50vh;
+}
+.first img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.linkedin {
+  color: #0077b5;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  border: 0;
+}
+.linkedin:hover {
+  color: white;
+  background-color: #0077b5;
+}
+.github {
+  color: black;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  border: 0;
+}
+.github:hover {
+  color: white;
+  background-color: black;
+}
+.first .text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: white;
+}
+.first .text h3 {
+  font-size: 1.5rem;
+  color: #ddd;
+  max-width: 700px;
+  margin: 0 auto;
+}
+#About {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+.title {
+  width: 100%;
+  background-color: rgb(3, 99, 86);
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#About p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  padding: 0 20px;
+  color: #333;
+}
+#skills {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+.container {
+  background-color: #eee;
+  margin: 10px auto;
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card {
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+  box-shadow: 5px 4px 6px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+#skills h3 {
+  padding-top: 30px;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  font-size: 2.28rem;
+  line-height: 2.508rem;
+  margin: 1.14rem 0 0.912rem 20px;
+}
+.row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.col {
+  font-size: 20px;
+  margin: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col:hover {
+  transform: translateY(-12px);
+}
+
+.row img {
+  max-height: 100px;
+  padding-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+}
+#project {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+.cont {
+  text-align: center;
+}
+.pr {
+  width: 350px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  vertical-align: top;
+  margin: auto 35px;
+  min-height: 500px;
+}
+.pr:hover {
+  transform: translateY(-12px);
+}
+.pr img {
+  width: 350px;
+  height: 300px;
+}
+.pr h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 15px 10px;
+}
+.pr p {
+  font-size: 1rem;
+  color: #555;
+  padding: 0 15px 15px;
+}
+#contact {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+.allcont {
+  width: 100%;
+  min-height: 50vh;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 5px 4px 6px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+form {
+  margin: 0 auto;
+}
+form div {
+  margin-bottom: 20px;
+}
+form label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 7px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: block;
+}
+form input:focus,
+form textarea:focus {
+  border: 5px solid #008073;
+}
+form textarea {
+  height: 120px;
+  resize: none;
+}
+form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background-color: #2872a3;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+}
+form input[type="submit"]:hover {
+  background-color: #07253a;
+}
+.footer {
+  text-align: center;
+  background-color: #008073;
+  padding: 30px 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 0 20px 20px 20px;
+  position: relative;
+}
+.footer span {
+  color: #12e985;
+  font-weight: bold;
+  position: absolute;
+  left: 53%;
+}
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #07253a;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.up:hover {
+  background-color: #31e70d;
+}
